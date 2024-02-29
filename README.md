@@ -1,6 +1,6 @@
 # range-of-even-numbers in python
-#range or mean of even numbers
-#Approaach-1
+# range or mean of even numbers
+# Approaach-1
 n=int(input())
 a=list(map(int,input().split()))
 es=0
@@ -10,8 +10,8 @@ for i in range(n):
     es=es+a[i]
     c=c+1
 print(es//c)
-
-#approach-2
+ 
+# approach-2
 n=int(input())
 a=list(map(int,input().split()))
 es=0
@@ -22,7 +22,7 @@ for i in a:
     c=c+1
 print(es//c)
 
-#approach-3
+# approach-3
 n=int(input())
 a=list(map(int,input().split()))
 e=[]
